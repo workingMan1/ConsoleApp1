@@ -9,6 +9,10 @@ namespace ClassExample
         public int id;
         public string name;
 
+        public Customer()
+        {
+        }
+
         public Customer(int id)
         {
             this.id = id;
